@@ -1,4 +1,4 @@
-fetch("/productos.json") // Carga desde el archivo en GitHub
+fetch("public/productos.json") // Carga desde el archivo en GitHub
     .then(response => {
         if (!response.ok) throw new Error("Error en la red");
         return response.json();
